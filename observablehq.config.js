@@ -162,7 +162,7 @@ export default {
       <span class="hide-if-small">Brian Knight's</span> Visualization Playground
     </a>
     <span style="display: flex; align-items: baseline; gap: 0.5rem; font-size: 14px;">
-      <a target="_blank" href="https://github.com/brianknight10/viz"><span>View source</span></a>
+      <a target="_blank" href="https://github.com/brianknight10/data-visualization"><span>View source</span></a>
     </span>
   </div>
 </div>`
