@@ -16,7 +16,10 @@ export default {
   ],
 
   // Content to add to the head of the page, e.g. for a favicon:
-  head: '<link rel="icon" href="logo.png" type="image/png" sizes="32x32">',
+  head: process.env.CI &&
+`<link rel="icon" href="logo.png" type="image/png" sizes="32x32">
+<script defer data-domain="viz.brianknight.dev" src="https://plausible.io/js/script.js"></script>`
+,
 
   // The path to the source root.
   root: "src",
